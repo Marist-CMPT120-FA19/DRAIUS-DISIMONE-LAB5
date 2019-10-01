@@ -2,7 +2,7 @@
 
 def main():  
     sentence = str(input("Please enter a sentence: "))
-    wordcount = len(s.split(" "))
+    wordcount = len(sentence.split(" "))
     avg = 0
     
     for x in sentence:
